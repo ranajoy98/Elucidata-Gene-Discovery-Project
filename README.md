@@ -18,5 +18,7 @@ Files:-
 1. gene_data_anomaly.csv - contains the normalized counts after RNA sequencing for
 every gene for samples S1, S2,..., S30.
 2. MetaData.csv - contains the time at which each sample was collected.
+
+
 Due to an anomaly in the system, the data has missing values(NaNs) at certain data points.
 This is a bottleneck for further processing of data and we need to deal with this missing data.
