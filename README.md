@@ -20,14 +20,3 @@ every gene for samples S1, S2,..., S30.
 2. MetaData.csv - contains the time at which each sample was collected.
 Due to an anomaly in the system, the data has missing values(NaNs) at certain data points.
 This is a bottleneck for further processing of data and we need to deal with this missing data.
-Part A
-Locate the genes which have missing values for certain samples.
-Case 1:
-If a gene has a missing value for all three replicates of any time point in the dataset remove the
-gene completely from the dataset.
-Case 2:
-If a gene has a missing value for one of the three replicates of any time point fill it with the mean
-of the values for the other two replicates.Case 3:
-If a gene has a missing value for two of the three replicates of any time point fill both the missing
-values with the value of the third non-missing replicate at that time point.
-
